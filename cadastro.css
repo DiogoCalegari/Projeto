@@ -1,0 +1,108 @@
+body {
+    font-family: 'Bungee', sans-serif;
+    background-color: #ff8921;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form {
+    background-color: #f0edec;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-form h3 {
+    color: #ff8921;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.btn-primary {
+    background-color: #ff8921;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #e6761c;
+}
+
+.text-center a {
+    color: #ff8921;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.text-center a:hover {
+    color: #e6761c;
+}
+
+.logo {
+    margin-bottom: 20px;
+    max-width: 120px;
+}
+
+.sucesso-card {
+    background-color: #f0edec;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    max-width: 400px;
+    text-align: center;
+}
+
+.sucesso-card h3 {
+    color: #ff8921;
+    margin-bottom: 15px;
+}
+
+.btn-voltar {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #ff8921;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.btn-voltar:hover {
+    background-color: #e6761c;
+}
